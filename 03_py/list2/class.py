@@ -1,3 +1,7 @@
+# TODO:
+# - add test cases
+# - add comments
+
 def count_evens(nums):
     count = 0 
     for num in nums:
@@ -24,17 +28,19 @@ def centered_average(nums):
         sum += num
     return (sum - (small + big)) / (len(nums) - 2)
 
-# work on this later
 def sum13(nums):
     if len(nums) == 0:
         return 0
-    sum = 0
     for i in range(len(nums)):
-        if nums[i] != 13:
-            sum += nums[i]
-            if (i > 0 and nums[i - 1] == 13):
-                sum -= i
+        if nums[i] == 13:
+            nums[i] = 0
+            if i != len(nums) - 1:
+                nums[i + 1] = 0
+    sum = 0
+    for num in nums:
+        sum += num
     return sum
 
 def sum67(nums):
-    # code later
+    # work on later
+    return 0
