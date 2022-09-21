@@ -1,7 +1,3 @@
-from itertools import count
-from operator import index
-
-
 def count_evens(nums):
     count = 0 
     for num in nums:
@@ -41,4 +37,4 @@ def sum13(nums):
     return sum
 
 def sum67(nums):
-    # code later   
+    # code later
