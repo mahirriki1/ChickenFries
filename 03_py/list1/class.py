@@ -1,5 +1,9 @@
-from itertools import count
+def first_last6():
+    
 
+print(first_last6([1, 2, 6]) == True)
+print(first_last6([6, 1, 2, 3]) == True)
+print(first_last6([13, 6, 1, 2, 3]) == False)
 
 def same_first_last(nums):
     return len(nums) >= 1 and nums[0] == nums[-1]
