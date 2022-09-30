@@ -1,3 +1,18 @@
+"""
+Mahir Riki, Sadi Nirloy
+SoftDev
+K05 - krewes from txt
+2022-09-30
+time spent: 1.5 hours
+
+DISCO: 
+    - the list converter is inconsistent 
+    - appending to a list in a dictionary is possible
+    
+QCC:
+    - why has list(dict.keys()) stopped working?
+"""
+
 import random
 
 with open('krewes.txt', 'r') as f:
