@@ -72,3 +72,24 @@ print(occupation_selector())
 # to print 15 occupations randomly weighted by percentages
 # for i in range(15):
 #    print(occupation_selector())
+
+# To prove that our method of random choice is weighted
+def proof(reps):
+  #new dictionary to hold data
+    randata = {}
+  #To copy over the keys into Randata
+    for i in occupations.keys():
+        randata[i] = 0
+    randata["Total"] = 0
+  #Counting the number of times that each job is chosen
+    for i in range(reps):
+        randata[occupation_selector()] += 1
+        randata["Total"] += 1
+  #Calculating a percent for each job
+    for i in randata.keys():
+        percentAvg = (randata[i] / randata["Total"]) * 100
+        if (not ( i == "Total")):
+            print(str(i) + ": " + str(percentAvg) + " compared to " + str(occupations[i]))
+
+# print("\nAverage of Choices")
+# proof(1000000)
