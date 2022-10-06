@@ -59,7 +59,10 @@ app = Flask(__name__)
 @app.route("/")
 def random_occupation():
     print(__name__)
-    return occupation_selector() + "<br>" + "<br>" + str(occupations.keys())
+    all_occupations = "<b>Occupations:</b>" + "<br>"
+    for i in occupations.keys():
+        all_occupations += i + "<br>"
+    return "<b>Random Occupation:</b> " + occupation_selector() + "<br>" + "<br>" + "<br>" + all_occupations
 
 app.debug = True
 app.run()
