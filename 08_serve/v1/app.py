@@ -1,4 +1,4 @@
-# Clyde 'Thluffy' Sinclair
+# MyJuicyWork - Mahir Riki, Jacob Guo, William Guo
 # SoftDev
 # Oct 2022
 
