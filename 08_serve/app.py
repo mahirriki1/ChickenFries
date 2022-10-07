@@ -3,12 +3,18 @@ MyJuicyWork - Mahir Riki, Jacob Guo, William Guo
 SoftDev
 K08 -- serve
 2022-10-06
-time spent: 
+time spent: 0.5 hours
 """
 """
 Plan:
 - Copy numbercruncher code to this file.
--
+- Create an instance of flask with app = Flask(__name__)
+- Under app.route('/'), make a function that calls the occupation_selector() function
+and returns the result
+- Print all the occupations by creating a variable that gets occupations added to it by a for loop looping
+through the keys in the dictionary with all occupations
+- Add the variable with all the occupations with the random occupation generator result and add
+line breaks to make it neater.
 """
 
 import random as r
@@ -59,9 +65,11 @@ app = Flask(__name__)
 @app.route("/")
 def random_occupation():
     print(__name__)
+    counter = 1;
     all_occupations = "<b>Occupations:</b>" + "<br>"
     for i in occupations.keys():
-        all_occupations += i + "<br>"
+        all_occupations += str(counter) + ") " + i + "<br>"
+        counter += 1
     return "<b>Random Occupation:</b> " + occupation_selector() + "<br>" + "<br>" + "<br>" + all_occupations
 
 app.debug = True
