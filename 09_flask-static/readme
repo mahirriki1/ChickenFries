@@ -1,0 +1,3 @@
+- When directed to http://127.0.0.1:5000/static/foo, the file foo is downloaded.
+- When directed to http://127.0.0.1:5000/static/foo.html, the content of foo.html is displayed in the webpage.
+- Going to http://127.0.0.1:5000/static/ gives an error that says "not found"
