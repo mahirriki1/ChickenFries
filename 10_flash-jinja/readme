@@ -1,3 +1,10 @@
+MyJuicyWork -- Mahir Riki, Jacob Guo, William Guo
+SoftDev
+K10 -- Just Plug It In
+2022-10-13
+time spent: 0.2 hrs
+
+
 #Q0: What will happen if you remove render_template from this line? (log your prediction before you pull the trigger...)
     If you try to open http://127.0.0.1:5000/my_foist_template, it'll show an error message.
 
