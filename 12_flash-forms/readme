@@ -1,19 +1,9 @@
-# MyJuicyWork - William Guo, Jacob Guo, Mahir Riki
-# SoftDev
-# Oct 14th 2022
-# time spent: 0.5 hrs
+WeLoveTrees - Mahir Riki, Ravindra Mangar, Kevin Liu
+SoftDev
+K12: Take and Give
+2022-10-17
+time spend: 1 hr
 
-'''
-Predictions:
-print(app) - prints URL of the root
-print(request) - prints the webpage that it's serving on
-print(request.args) - prints  user input in the termina
-
-Disco:
-print(request.headers) - information on the console, browser using 
-when you inputed username, app route changes to /auth
-
-when commented out print(request.username), got badrequestkeyerror
-'''
-
-### <"form action = "/auth"> - connects the front end to back
+- To get a template to load in POST, we had to add methods=['GET', 'POST'] to the arguments in
+@app.route so that it would use POST to request the template.
+- POST requests use request.form to access data while GET uses request.args.

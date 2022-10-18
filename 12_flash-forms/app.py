@@ -38,7 +38,7 @@ def authenticate():
     #print(request.args['username'])
     print("***DIAG: request.headers ***")
     print(request.headers)
-    return render_template( 'response.html' , username = request.form['username'] ) + '\n\n' + 'Request Method: ' + request.method
+    return render_template( 'response.html' , username = request.form['username'] ) + '\n\n\n' + 'Request Method: ' + request.method
 
 
     
