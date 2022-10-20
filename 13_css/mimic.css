@@ -8,15 +8,16 @@ h1{
 }
 
 #heading {
-    background-color: #bebebe;
-    height: 7%;
+    background-color: #afaeae;
+    height: 6%;
     align-items: center;
     text-align: center;
 }
 
-/*.main_content{
+.main_content{
     display: inline-block;
-}*/
+    text-align: left;
+}
 
 #flex_container {
     background-color: #767676;
@@ -43,5 +44,7 @@ ul {
 }
 
 nav {
-    margin-right: 10%
+    margin-right: 5%;
+    height: 100%;
+    width: 100%;
 }
