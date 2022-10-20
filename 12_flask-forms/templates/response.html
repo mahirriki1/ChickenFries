@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<!--
+WeLoveTrees - Mahir Riki, Ravindra Mangar, Kevin Liu
+SoftDev
+K12: Take and Give
+2022-10-17
+time spend: 1 hr
+-->
+
+<html>
+
+  <head>
+    <title> RESPONSE </title>
+  </head>
+
+  <body>
+    <h1>
+      Username: {{ username }}
+    </h1>
+
+    <h3>
+      Welcome aboard {{ username }} to WeLoveTrees!
+    </h3>
+
+    <br>
+
+    <p>
+      GET request:<br>
+        - uses requests.args['key'] to get the value of the key <br>
+        - only used to request data and not modify it<br>
+        - remains in browser history<br>
+        - less secure due to data being apart of the URL<br>
+      <br>
+      POST request:<br>
+        - uses requests.form['key'] to get the value of the key<br>
+        - used to modify data<br>
+        - does not remain in browser history<br>
+        - more secure since parameters aren't stored in browser history<br>
+    </p>
+
+    <br><br>
+  </body>
+
+</html>

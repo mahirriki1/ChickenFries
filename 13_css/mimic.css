@@ -1,0 +1,47 @@
+body {
+    background-color: #666666;
+    height:100vh;
+}
+
+h1{
+    color: white;
+}
+
+#heading {
+    background-color: #bebebe;
+    height: 7%;
+    align-items: center;
+    text-align: center;
+}
+
+/*.main_content{
+    display: inline-block;
+}*/
+
+#flex_container {
+    background-color: #767676;
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+    align-content: flex-start;
+}
+
+#copyright{
+    background-color: #565656;
+    color: #767676;
+    text-align: right;
+}
+
+li {
+    color:#bebebe;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-right: 10%
+}

@@ -1,0 +1,9 @@
+WeLoveTrees - Mahir Riki, Ravindra Mangar, Kevin Liu
+SoftDev
+K12: Take and Give
+2022-10-17
+time spend: 1 hr
+
+- To get a template to load in POST, we had to add methods=['GET', 'POST'] to the arguments in
+@app.route so that it would use POST to request the template.
+- POST requests use request.form to access data while GET uses request.args.
