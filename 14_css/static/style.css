@@ -1,5 +1,5 @@
 body {
-    background-color: #666666;
+    background-color: #5d5b5b;
     height:100vh;
 }
 
@@ -8,7 +8,7 @@ h1{
 }
 
 #heading {
-    background-color: #afaeae;
+    background-color: #a7a3a3;
     height: 6%;
     align-items: center;
     text-align: center;
@@ -21,8 +21,8 @@ h1{
 
 #flex_container {
     background-color: #767676;
-    display: flex;
     flex-direction: row;
+    display: flex;
     justify-content: space;
     align-content: flex-start;
 }
