@@ -1,8 +1,8 @@
-##Duck Lemon: Ian Jiang, Mahir Riki
-##SoftDev
-##K24 - Mmmmm... Tasty!
-##2022-11-30
-##time spent: .5 hrs
+## Duck Lemon: Ian Jiang, Mahir Riki
+## SoftDev
+## K24 - Mmmmm... Tasty!
+## 2022-11-30
+## time spent: .5 hrs
 
 DISCO:
 * We learned the syntax for a carousel and buttons for the carousel
