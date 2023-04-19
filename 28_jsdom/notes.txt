@@ -1,0 +1,8 @@
+Team ---- :: Mahir Riki
+SoftDev pd2
+K28 -- Manipulating the DOM
+2023-04-17
+
+Comments:
+* theres multiple ways to make a function in javascript
+* you could define a function to a variable
