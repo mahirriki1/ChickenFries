@@ -1,0 +1,11 @@
+// Team ----- :: Mahir Riki
+// SoftDev pd2
+// K29 -- Buttonation
+// 2023-04-21w
+// --------------------------------------------------
+
+Questions:
+- how can i make the buttons work without making seperate functions in javascript?
+
+Comments:
+- 
