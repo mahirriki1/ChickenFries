@@ -1,0 +1,11 @@
+Team idk yet -- Mahir Riki and Brian Chen
+SoftDev2 pd2
+K30 -- canvas based JS drawing
+2023-04-24m
+
+Comments:
+- for togglemode, .target was needed to get the button since e is an event object
+- without fillstyle, the default color for rectangles is black
+
+QCC:
+- is it possible to change the size of the campus to make it responsive to window size and make the js code work with that?
